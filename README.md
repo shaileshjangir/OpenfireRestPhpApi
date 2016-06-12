@@ -14,6 +14,12 @@ You can install it via [composer](http://getcomposer.org/). Create `composer.jso
 
 ```json
 {
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/shaileshjangir/openfirerestphpapi"
+		}
+	],
     "require": {
         "shaileshjangir/OpenfireRestPhpApi": "dev-master"
     }
